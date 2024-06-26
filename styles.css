@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 80px;
+    background-color:rgb(156, 255, 255);
+    margin-top: 0px;
+
+
+}
+
+.contenedor {
+    display: flex;
+    margin-top: 0px;
+    padding: 0px;
+
+    flex-direction: row;
+    background-color:rgb(156, 255, 255);
+    border: 0px solid black;
+
+}
+
+.contenedorA {
+    background-color: rgb(255, 255, 255); /* Establece el color de fondo a blanco */
+    border: 0px solid black; /* Define un borde negro de 0 píxeles (efectivamente sin borde) */
+    flex: 0 0 40%; /* No permite que el contenedor crezca ni se encoja, establece el ancho base en 40% */
+    display: flex; /* Configura el contenedor como un contenedor flex */
+    justify-content: flex-start; /* Alinea los elementos hijos al inicio del eje principal (arriba) */
+    flex-direction: column; /* Organiza los elementos hijos en una columna */
+    padding: 10px; /* Añade un relleno interior de 10 píxeles alrededor del contenido */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra alrededor del contenedor */
+}
+
+.contenedorB {
+    background-color: rgb(255, 255, 255); /* Establece el color de fondo a blanco */
+    border: 0px solid black; /* Define un borde negro de 0 píxeles (efectivamente sin borde) */
+    flex: 0 0 40%; /* No permite que el contenedor crezca ni se encoja, establece el ancho base en 40% */
+    display: flex; /* Configura el contenedor como un contenedor flex */
+    justify-content: flex-start; /* Alinea los elementos hijos al inicio del eje principal (arriba) */
+    flex-direction: column; /* Organiza los elementos hijos en una columna */
+    padding: 10px; /* Añade un relleno interior de 10 píxeles alrededor del contenido */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra alrededor del contenedor */
+}
+
+.contenedorC {
+    background-color: rgb(255, 255, 255); /* Establece el color de fondo a blanco */
+    border: 0px solid black; /* Define un borde negro de 0 píxeles (efectivamente sin borde) */
+    flex: 0 0 15%; /* No permite que el contenedor crezca ni se encoja, establece el ancho base en 20% */
+    display: flex; /* Configura el contenedor como un contenedor flex */
+   
+    flex-direction: column; /* Organiza los elementos hijos en una columna */
+    padding: 10px; /* Añade un relleno interior de 10 píxeles alrededor del contenido */
+  
+}
+
+.contenido {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 0px solid black;
+
+}
+
+.contenido_img_pequeñas {
+    border: 0px solid black;
+    width: 150px;
+    height: 100px;
+
+}
+
+.header {
+    width: 100%; /* Establece el ancho del encabezado al 100% del contenedor */
+    background-color: white; /* Establece el color de fondo del encabezado a blanco */
+    padding: 20px 0; /* Añade un relleno superior e inferior de 20 píxeles */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añade una sombra alrededor del encabezado */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
