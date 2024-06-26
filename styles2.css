@@ -1,1 +1,51 @@
 
+.caja-nav{
+
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.boton-nav {
+    
+    background-color: rgb(255, 255, 255); 
+    margin: 10px;  
+    display: flex;
+    justify-content: center;
+}
+
+.boton2-nav{
+
+    background-color: rgb(24, 21, 21); 
+    color: aliceblue; 
+    width: 150px;
+    height: 40px;
+
+}
+
+.caja-articulos{
+    background-color: rgb(221, 125, 93);
+    border: 2px solid #333;
+
+}
+
+.footer{
+
+    background-color: rgb(93, 221, 134);
+    border: 2px solid #333;
+    margin: 0;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    }
